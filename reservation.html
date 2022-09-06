@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="p-6">
+      <div class="bg-white">
+        <div class="max-w-272 mx-auto">
+          <div class="flex items-center justify-between py-6">
+            <div>
+              <a class="hover:text-red-600" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-list"
+                  viewBox="0 0 14 14"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <ul class="flex pl-10">
+                <li class="list-none">
+                  <a
+                    class="text-black no-underline hover:text-red-600"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="list-none ml-4">
+                  <a
+                    class="text-black no-underline hover:text-red-600"
+                    href="./about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="list-none ml-4">
+                  <a
+                    class="text-black no-underline hover:text-red-600"
+                    href="./special-dishes.html"
+                    >Special Dishes</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a href=""
+                ><img class="w-30" src="./src/img/logo.png" alt=""
+              /></a>
+            </div>
+            <div class="">
+              <ul class="flex pr-22 p-0">
+                <li class="list-none">
+                  <a
+                    class="text-black no-underline hover:text-red-600"
+                    href="./menu.html"
+                    >Menu</a
+                  >
+                </li>
+                <li class="list-none ml-4">
+                  <a
+                    class="text-black no-underline hover:text-red-600"
+                    href="./team.html"
+                    >Team</a
+                  >
+                </li>
+                <li class="list-none ml-4">
+                  <a
+                    class="text-black no-underline hover:text-red-600"
+                    href="./reservation.html"
+                    >Reservation</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <a class="hover:text-red-600" href=""
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- end. menu -->
+        </div>
+
+        <section
+          class="bg-cover py-16 pt-31 bg-white mb-50 border-box h-137"
+          style="background-image: url(./src/img/reservation-bg.jpg)"
+        >
+          <div class="max-w-272 mx-auto px-4">
+            <div class="max-w-40 flex-wrap">
+              <div class="p-12impo shadow-important bg-white text-center-impo">
+                <div><h2 class="text-8 mt-0">Book Now</h2></div>
+                <form class="" method="post" action="">
+                  <div class="">
+                    <div class="mb-4 max-w-full">
+                      <input
+                        type="text"
+                        class="h-6_5 text-gray-input outline-none rounded-1 text-4 border-input py-1_5 w-full"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div class="mb-4 max-w-full">
+                      <input
+                        type="text"
+                        class="h-6_5 text-gray-input outline-none rounded-1 text-4 border-input py-1_5 w-full"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="mb-4 max-w-full">
+                      <input
+                        type="number"
+                        class="h-6_5 text-gray-input outline-none rounded-1 text-4 border-input py-1_5 w-full"
+                        placeholder="Phone"
+                      />
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-8 mb-4 max-w-full">
+                      <div class="max-w-full" data-target-input="nearest">
+                        <input
+                          type="date"
+                          class="h-6_5 text-gray-input outline-none rounded-1 text-4 border-input py-1_5 w-full"
+                          data-target="#datetimepicker4"
+                          placeholder="Date"
+                        />
+                      </div>
+
+                      <div class="max-w-full">
+                        <input
+                          type="time"
+                          class="h-6_5 text-gray-input outline-none rounded-1 text-4 border-input py-1_5 w-full"
+                          data-target="#datetimepicker3"
+                          placeholder="Time"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="mb-4 max-w-full">
+                      <select
+                        class="h-10 text-gray-input outline-none rounded-1 text-4 border-input py-1_5 w-full"
+                      >
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+
+                    <div class="mb-4 max-w-full">
+                      <textarea
+                        class="outline-none text-gray-input rounded-1 text-4 border-input py-1_5 w-full"
+                        rows="6"
+                        placeholder="Your Message ..."
+                      ></textarea>
+                    </div>
+                    <div class="">
+                      <button
+                        class="border-none btn btn-primary btn-shadow"
+                        type="submit"
+                      >
+                        Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- end. benner buttom -->
+        <footer class="py-12 pt-35">
+          <div class="max-w-272 mx-auto">
+            <div class="grid grid-cols-3 gap-25">
+              <div class="">
+                <img class="h-13" src="./src/img/logo.png" alt="" />
+                <p class="leading-6 text-color-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                  obcaecati quisquam id sit omnis explicabo voluptate aut
+                  placeat, soluta, nisi ea magni facere, itaque incidunt modi?
+                  Magni, et voluptatum dolorem.
+                </p>
+                <nav class="flex">
+                  <a class="text-black hover:text-red-600 p-3 mx-1" href="">
+                    <svg
+                      height="16"
+                      style="
+                        fill-rule: evenodd;
+                        clip-rule: evenodd;
+                        stroke-linejoin: round;
+                        stroke-miterlimit: 2;
+                      "
+                      version="1.1"
+                      viewBox="0 0 512 512"
+                      width="16"
+                      xml:space="preserve"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:serif="http://www.serif.com/"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <path
+                        d="M374.244,285.825l14.105,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.116,0l0,-78.291c0,0 -36.407,-6.214 -71.213,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.541 32.798,3.865 49.709,3.865c16.911,0 33.511,-1.324 49.708,-3.865l0,-222.31l74.128,0Z"
+                        style="fill-rule: nonzero"
+                      />
+                    </svg>
+                  </a>
+                  <a class="text-black hover:text-red-600 p-3 mx-1" href="">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-twitter"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                      />
+                    </svg>
+                  </a>
+                  <a class="text-black hover:text-red-600 p-3 mx-1" href="">
+                    <svg
+                      height="16"
+                      style="
+                        fill-rule: evenodd;
+                        clip-rule: evenodd;
+                        stroke-linejoin: round;
+                        stroke-miterlimit: 2;
+                      "
+                      version="1.1"
+                      viewBox="0 0 600 600"
+                      width="16"
+                      xml:space="preserve"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:serif="http://www.serif.com/"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <g transform="matrix(1.01619,0,0,1.01619,44,43.8384)">
+                        <path
+                          d="M251.921,0.159C183.503,0.159 174.924,0.449 148.054,1.675C121.24,2.899 102.927,7.157 86.902,13.385C70.336,19.823 56.287,28.437 42.282,42.442C28.277,56.447 19.663,70.496 13.225,87.062C6.997,103.086 2.739,121.399 1.515,148.213C0.289,175.083 0,183.662 0,252.08C0,320.497 0.289,329.076 1.515,355.946C2.739,382.76 6.997,401.073 13.225,417.097C19.663,433.663 28.277,447.712 42.282,461.718C56.287,475.723 70.336,484.337 86.902,490.775C102.927,497.002 121.24,501.261 148.054,502.484C174.924,503.71 183.503,504 251.921,504C320.338,504 328.917,503.71 355.787,502.484C382.601,501.261 400.914,497.002 416.938,490.775C433.504,484.337 447.553,475.723 461.559,461.718C475.564,447.712 484.178,433.663 490.616,417.097C496.843,401.073 501.102,382.76 502.325,355.946C503.551,329.076 503.841,320.497 503.841,252.08C503.841,183.662 503.551,175.083 502.325,148.213C501.102,121.399 496.843,103.086 490.616,87.062C484.178,70.496 475.564,56.447 461.559,42.442C447.553,28.437 433.504,19.823 416.938,13.385C400.914,7.157 382.601,2.899 355.787,1.675C328.917,0.449 320.338,0.159 251.921,0.159ZM251.921,45.551C319.186,45.551 327.154,45.807 353.718,47.019C378.28,48.14 391.619,52.244 400.496,55.693C412.255,60.263 420.647,65.723 429.462,74.538C438.278,83.353 443.737,91.746 448.307,103.504C451.757,112.381 455.861,125.72 456.981,150.282C458.193,176.846 458.45,184.814 458.45,252.08C458.45,319.345 458.193,327.313 456.981,353.877C455.861,378.439 451.757,391.778 448.307,400.655C443.737,412.414 438.278,420.806 429.462,429.621C420.647,438.437 412.255,443.896 400.496,448.466C391.619,451.916 378.28,456.02 353.718,457.14C327.158,458.352 319.191,458.609 251.921,458.609C184.65,458.609 176.684,458.352 150.123,457.14C125.561,456.02 112.222,451.916 103.345,448.466C91.586,443.896 83.194,438.437 74.378,429.621C65.563,420.806 60.103,412.414 55.534,400.655C52.084,391.778 47.98,378.439 46.859,353.877C45.647,327.313 45.391,319.345 45.391,252.08C45.391,184.814 45.647,176.846 46.859,150.282C47.98,125.72 52.084,112.381 55.534,103.504C60.103,91.746 65.563,83.353 74.378,74.538C83.194,65.723 91.586,60.263 103.345,55.693C112.222,52.244 125.561,48.14 150.123,47.019C176.687,45.807 184.655,45.551 251.921,45.551Z"
+                          style="fill-rule: nonzero"
+                        />
+                        <path
+                          d="M251.921,336.053C205.543,336.053 167.947,298.457 167.947,252.08C167.947,205.702 205.543,168.106 251.921,168.106C298.298,168.106 335.894,205.702 335.894,252.08C335.894,298.457 298.298,336.053 251.921,336.053ZM251.921,122.715C180.474,122.715 122.556,180.633 122.556,252.08C122.556,323.526 180.474,381.444 251.921,381.444C323.367,381.444 381.285,323.526 381.285,252.08C381.285,180.633 323.367,122.715 251.921,122.715Z"
+                          style="fill: rgb(3, 4, 4); fill-rule: nonzero"
+                        />
+                        <path
+                          d="M416.627,117.604C416.627,134.3 403.092,147.834 386.396,147.834C369.701,147.834 356.166,134.3 356.166,117.604C356.166,100.908 369.701,87.374 386.396,87.374C403.092,87.374 416.627,100.908 416.627,117.604Z"
+                          style="fill: rgb(3, 4, 4); fill-rule: nonzero"
+                        />
+                      </g>
+                    </svg>
+                  </a>
+                </nav>
+              </div>
+              <div class="px-6">
+                <h4 class="text-6 m-0">Open Hours</h4>
+                <ul class="p-0 text-color-content">
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Monday</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Tuesday</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Wednesday</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Thursday</span><span>9:00 - 24:00</span>
+                  </li>
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Friday</span><span>9:00 - 02:00</span>
+                  </li>
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Saturday</span><span>9:00 - 02:00</span>
+                  </li>
+                  <li class="list-none flex justify-between leading-6">
+                    <span>Sunday</span><span> Closed</span>
+                  </li>
+                </ul>
+              </div>
+              <div class=" ">
+                <h4 class="text-6 m-0">Newsletter</h4>
+                <p class="leading-6 text-color-content">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <form class="">
+                  <div class="">
+                    <input
+                      style="width: 91%"
+                      type="email"
+                      class="h-6_5 mb-4 px-3 text-gray-input outline-none rounded-1 text-4 border-input py-1_5"
+                      placeholder="Enter email"
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    class="border-none btn-primary btn w-full"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="mb-0 text-color-content">
+                Copyright 2022. All Right Reserved. Design by
+                <a class="no-underline text-red-500" href="">GetTemplates</a>
+              </p>
+            </div>
+          </div>
+        </footer>
+        <!-- end. footer -->
+      </div>
+    </div>
+  </body>
+</html>
